@@ -1,0 +1,114 @@
+html, body, div, span, p, img, strong, footer, header {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	body {
+		background-color: #000;
+		background-image: url("../../images/bg.jpg");
+		background-size: cover;
+		background-position: top center;
+		line-height: 1;
+		-webkit-text-size-adjust: none;
+		color: rgba(255, 255, 255, 0.65);
+		font-family: Helvetica, sans-serif;
+		font-size: 10pt;
+		font-weight: 150;
+		-ms-overflow-style: scrollbar;
+	}
+	#wrap {
+		max-width: 68em;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 2em;
+	}
+	*, *:before, *:after {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	@-ms-viewport {
+		width: device-width;
+	}
+	strong {
+		color: #fff;
+		font-weight: bold;
+	}
+	p {
+		color: #fff;
+		font-weight: 200;
+		line-height: 1.2;
+		margin: 0 0 1em 0;
+		font-size: 1.25em;
+	}
+	@media screen and (max-width: 1280px) {
+			body {
+				font-size: 12pt;
+			}
+		}
+		@media screen and (max-width: 980px) {
+			p {
+				font-size: 1.5em;
+			}
+		}
+		@media screen and (max-width: 736px) {
+			p {
+				font-size: 1.25em;
+			}
+		}
+		@media screen and (max-width: 480px) {
+		html, body {
+			min-width: 320px;
+		}
+	}
+	.align-center {
+		text-align: center;
+	}
+	#header {
+		text-align: center;
+		padding: 2em 0;
+	}
+		#header p {
+			color: #fefefe;
+		}
+
+		#header .avatar {
+			border-radius: 100%;
+			display: inline-block;
+			margin: 0 0 2em 0;
+			padding: 0.5em;
+			border: solid 1px rgba(255, 255, 255, 0.25);
+			background-color: rgba(255, 255, 255, 0.075);
+		}
+		#header .avatar img {
+				border-radius: 100%;
+				display: block;
+				width: 10em;
+		}
+	ul {
+		list-style: disc;
+		margin: 0 0 2em 0;
+		padding-left: 1em;
+	}
+	li {
+		padding-left: 0.25em;
+	}
+		ul li {
+			padding-left: 0.5em;
+			display: inline-block;
+		}
+			ul.icons li {
+				display: inline-block;
+				padding: 0 1em 0 0;
+			}
+
+				ul.icons li:last-child {
+					padding-right: 0;
+				}
+	#footer {
+		text-align: center;
+		padding: 4em 0 4em 0;
+	}
